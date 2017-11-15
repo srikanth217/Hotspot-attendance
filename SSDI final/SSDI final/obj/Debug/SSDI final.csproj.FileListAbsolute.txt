@@ -1,0 +1,34 @@
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\csc.exe
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\csc.exe.config
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\csc.rsp
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\csi.exe
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\csi.rsp
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\System.AppContext.dll
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\System.Collections.Immutable.dll
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\System.IO.FileSystem.dll
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\vbc.exe
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\vbc.exe.config
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\vbc.rsp
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\VBCSCompiler.exe
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\roslyn\VBCSCompiler.exe.config
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\SSDI final.dll.config
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\SSDI final.dll
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\SSDI final.pdb
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\obj\Debug\SSDI final.csprojResolveAssemblyReference.cache
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\obj\Debug\SSDI final.dll
+c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\obj\Debug\SSDI final.pdb
