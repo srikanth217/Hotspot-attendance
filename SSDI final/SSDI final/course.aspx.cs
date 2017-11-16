@@ -35,11 +35,13 @@ namespace WebApplication1
                 foreach(DataRow dr in ds.Tables[0].Rows)
                 {
                     Button button = new Button();
-                    button.Text= dr["CourseName"].ToString();
+          button.Text= dr["CourseName"].ToString();
                     button.Click += new EventHandler(button_Click);
                     button.Attributes["CourseID"] = dr["CourseID"].ToString();
                     button.Attributes["SubID"] = dr["SubID"].ToString();
+          
                     Panel2.Controls.Add(button);
+                    
                 }
             }
             else
