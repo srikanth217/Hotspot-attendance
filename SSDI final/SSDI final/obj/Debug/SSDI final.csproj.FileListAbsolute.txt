@@ -32,3 +32,37 @@ c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\bin\M
 c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\obj\Debug\SSDI final.csprojResolveAssemblyReference.cache
 c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\obj\Debug\SSDI final.dll
 c:\users\saika\documents\visual studio 2017\Projects\SSDI final\SSDI final\obj\Debug\SSDI final.pdb
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\csc.exe
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\csc.exe.config
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\csc.rsp
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\csi.exe
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\csi.rsp
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\System.AppContext.dll
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\vbc.exe
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\vbc.exe.config
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\vbc.rsp
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\VBCSCompiler.exe
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\SSDI final.dll.config
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\SSDI final.dll
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\SSDI final.pdb
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\obj\Debug\SSDI final.csprojResolveAssemblyReference.cache
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\obj\Debug\SSDI final.dll
+C:\Users\saika\Downloads\Hotspot-attendance-master\SSDI final\SSDI final\obj\Debug\SSDI final.pdb

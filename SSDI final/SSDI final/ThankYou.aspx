@@ -39,7 +39,7 @@
       $(document).ready(function () {
         setInterval(function () {
           $(".well").css("background-color", getRandomColor());
-        }, 100);
+        }, 2000);
       })
     </script>
 </head>

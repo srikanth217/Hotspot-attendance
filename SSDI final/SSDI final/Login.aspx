@@ -1,12 +1,26 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="WebApplication1.Login" %>
 <%@ Import Namespace="System.Net.Mail" %>
 <%@ Import Namespace="System.Net" %>
+<%@ Import Namespace="System.Configuration" %>
+<%@ Import Namespace="System.Data.SqlClient" %>
+<%@ Import Namespace="System.Data" %>
 
 <!DOCTYPE html>
 <script runat="server">
 
   protected void Button2_Click(object sender, EventArgs e)
   {
+    String password, password_match,user_name;
+            password = TextBoxPassword.Text.ToString();
+            user_name = TextBoxUserName.Text.ToString();
+            SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["as"].ConnectionString);
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.CommandText = "sp_fetchpassword";
+            cmd.Parameters.AddWithValue("@user_name",user_name);
+            cmd.Connection = con;
+            con.Open();
+            password_match = (string)cmd.ExecuteScalar();
    try
 {
     new SmtpClient
@@ -17,8 +31,8 @@
         Timeout = 10000,
         DeliveryMethod = SmtpDeliveryMethod.Network,
         UseDefaultCredentials = false,
-        Credentials = new NetworkCredential("srikanth.kkf9@gmail.com", "a1a2a3a4a5a6a7a8")
-    }.Send(new MailMessage {From = new MailAddress("saikalyan2703@gmail.com", "UNCC Management"), To = {"syeturu1@uncc.edu"}, Subject = "Password in database", Body = "Password is: ", BodyEncoding = Encoding.UTF8});
+        Credentials = new NetworkCredential("saikalyan2703@gmail.com", "a1a2a3a4a5a6a7a8")
+    }.Send(new MailMessage {From = new MailAddress("saikalyan2703@gmail.com", "UNCC Management"), To = {"syeturu1@uncc.edu"}, Subject = "Password in database", Body = "Password is: mmm", BodyEncoding = Encoding.UTF8});
     
 }
 catch (Exception ex)
@@ -73,6 +87,8 @@ catch (Exception ex)
 <body>
     <div class="container">
 
+     
+
      <div class="row" id="login_container">
 
        <div style="height:70px;background-color:#006400">
@@ -85,6 +101,34 @@ catch (Exception ex)
 
       <div class="col-md-5" id="x">
           <form id="form1" runat="server">
+
+             <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header" style="background-color:#006400">
+        <button style="color:white" type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="col-md-offset-5">
+          <h4 style="color:white" class="modal-title">Enter email:</h4>
+        </div>
+      </div>
+      <div class="modal-body">
+          <div class="form-group">
+                  <label for="TextBoxUserName2">NinerNet email:</label>
+                <asp:TextBox class="form-control" ID="TextBoxUserName2" runat="server"></asp:TextBox>
+              </div>
+        <div class="col-md-offset-5">
+              <asp:Button ID="Button2" class="btn btn-default" runat="server" OnClick="Button2_Click" Text="Send password" />
+            </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
         
             <div class="form-group">
               <label for="TextBoxUserName">NinerNet User Name:</label>
@@ -105,7 +149,7 @@ catch (Exception ex)
             </div><br>
 
             <div class="col-md-offset-4">
-              <asp:Button ID="Button2" class="btn btn-default" runat="server" OnClick="Button2_Click" Text="Forgot your password?" />
+              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Forgot your password?</button>
             </div>
          
 

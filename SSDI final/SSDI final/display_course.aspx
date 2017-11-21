@@ -9,6 +9,21 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style>
+      
+      tr:nth-child(even){
+        background-color:floralwhite;
+        color:black
+      }
+      tr:nth-child(odd){
+        background-color:darkgray;
+        color:white
+      }
+      tr:nth-child(1){
+         background-color:#006400;
+        color:white;
+        font-family:serif;
+      }
+
       #student_search, #date_search {
         border:1px solid black;
         border-radius:10px;
@@ -45,7 +60,7 @@
           </div>
         </div>
 
-        <div class="row" style="margin-top:70px">
+        <div class="row" style="margin-top:20px">
 
           <form id="form1" runat="server">
              
@@ -73,7 +88,9 @@
                 </div>
             </div>
 
-            <asp:GridView ID="GridView1" runat="server"></asp:GridView>
+           <div style="margin-top:70px">
+              <asp:GridView class="table table-hover" ID="GridView1" runat="server"></asp:GridView>
+           </div>
 
            </form>
             
